@@ -8,10 +8,22 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 3815701685
+  numberOfFiles: 51
+  numberOfSubjects: 11
   schemaKey: AssetsSummary
-citation: Silkuniene, Giedre (2025) Threshold Characterization of Ca²⁺ Uptake in CHO
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10029
+    name: Cricetulus griseus - Cricetulus aureus
+    schemaKey: SpeciesType
+  variableMeasured: []
+citation: Silkuniene, Giedre (2025) Threshold Characterization of Ca2+ Uptake in CHO
   Cells Following 1-µs Electroporation Pulses (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001521/draft
 contributor:
@@ -30,7 +42,7 @@ contributor:
 dateCreated: '2025-07-01T14:36:27.179416+00:00'
 description: This experiment aimed to determine the threshold for calcium uptake in
   CHO cells subjected to 1-µs electric pulses. Cells were loaded with 2.5 µM Fluo-4,
-  a Ca²⁺-sensitive dye, for 30 minutes in the dark. Fluo-4 fluorescence was excited
+  a Ca2+-sensitive dye, for 30 minutes in the dark. Fluo-4 fluorescence was excited
   using a FITC cube and a CoolLED illumination system. Time-lapse imaging was conducted
   at 1 frame per second for 5 minutes, with a single 1-µs pulse of varying amplitude
   applied 1 minute after the start of recording.
@@ -41,7 +53,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001521/versions/draft/assets/
-name: Threshold Characterization of Ca²⁺ Uptake in CHO Cells Following 1-µs Electroporation
+name: Threshold Characterization of Ca2+ Uptake in CHO Cells Following 1-µs Electroporation
   Pulses
 relatedResource: []
 repository: https://dandiarchive.org
